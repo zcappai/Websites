@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div id="header">
+  <h1 id="title"> Survey Form </h1>
+  <p id="description"> Thank you for taking time to fill in our form </p>
+</div>
+<form id="survey-form">
+  <div class="form-group">
+    <label for="name" id="name-label">Name<input name="name" type="text" placeholder="Enter Name" id="name" class="form-control" required></label>
+  </div>
+  <div class="form-group" class="label">
+    <label for="name" id="email-label">Email Address<input name="email" type="email" placeholder="Enter E-Mail Address" id="email" class="form-control" required></label>
+  </div>
+  <div class="form-group">
+    <label for="number" id="number-label">Age<input name="age" type="number" placeholder="Enter Age" id="number" class="form-control" min="1" max="115" required></label>
+  </div>
+  <div class="form-group">
+    <label for="dropdown">What is your salary?<select id="dropdown" name="salary" class="form-control" required></label>
+      <option disabled selected value>Please select an option below</option>
+      <option value="£0 to £20,000">£0 to £20,000</option>
+      <option value="£20,001 to £25,000">£20,001 to £25,000</option>
+      <option value="£25,001 to £30,000">£25,001 to £30,000</option>
+      <option value="£30,001 to £35,000">£30,001 to £35,000</option>
+      <option value="£35,001 to £40,000">£35,001 to £40,000</option>
+      <option value="£40,001 to £45,000">£40,001 to £45,000</option>
+      <option value="£45,001 to £50,000">£45,001 to £50,000</option>
+      <option value="£50,000+">£50,000+</option></select>
+      </div>
+    <div class="form-group">
+      <p>Which country do you live in?</p>
+      <label for="england" class="radioLeft"><input type="radio" id="england" name="countries" value="England" checked>England</label>
+      <label for="scotland" class="radioLeft"><input type="radio" id="scotland" name="countries" value="Scotland">Scotland</label>
+      <label for="wales" class="radioLeft"><input type="radio" id="wales" name="countries" value="Wales">Wales</label>
+      <label for="ni" class="radioLeft"><input type="radio" id="ni" name="countries" value="Northern Ireland">Northern Ireland</label>
+    </div>
+  <div class="form-group">
+      <p>Which programming languages do you know?</p>
+      <label for="python" class="checkLeft"><input type="checkbox" id="python" name="coding-langs" value="Python">Python</label>
+      <label for="java" class="checkLeft"><input type="checkbox" id="java" name="coding-langs" value="Java">Java</label>
+      <label for="c++" class="checkLeft"><input type="checkbox" id="c++" name="coding-langs" value="C++">C++</label>
+      <label for="c#" class="checkLeft"><input type="checkbox" id="c#" name="coding-langs" value="C#">C#</label>
+      <label for="c" class="checkLeft"><input type="checkbox" id="c" name="coding-langs" value="C">C</label>
+      <label for="javascript" class="checkLeft"><input type="checkbox" id="javascript" name="coding-langs" value="JavaScript">JavaScript</label>
+      <label for="php" class="checkLeft"><input type="checkbox" id="php" name="coding-langs" value="PHP">PHP</label>
+      <label for="ruby" class="checkLeft"><input type="checkbox" id="ruby" name="coding-langs" value="Ruby">Ruby</label>
+    </div>
+  <div class="form-group">
+    <p>Additional Information</p>
+    <textarea id="add-info" name="addinfo" placeholder="Additional Information" class="add-info"></textarea>
+  </div>
+  <div>
+    <button type="submit" id="submit">Submit</button>
+  </div>
+</form>
+<h2 class="sponsor"><em>Sponsored By Akhilesh Pai</em></h2>
+<!-- partial -->
+  
+</body>
+</html>

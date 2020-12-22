@@ -1,0 +1,61 @@
+html {
+  font-family: monospace;
+  background: linear-gradient(90deg, #5708D7, #6B04A8);
+}
+#title {
+  font-size: 35px;
+}
+#description {
+  font-size: 30px;
+}
+#header {
+  text-align: center;
+  border-style: solid;
+  border-color: red;
+  color: #FFF;
+  border-width: 5px;
+  max-width: 800px;
+  margin: 10px auto 50px auto;
+}
+#survey-form {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 25px;
+  max-width: 500px;
+  margin: auto;
+  border-style: solid;
+  padding: 0.5em;
+}
+.form-control {
+  width: 100%;
+  height: 2em;
+}
+.form-group {
+  padding: 0.5em;
+  margin: 10px auto 10px auto;
+}
+.radioLeft {
+  text-align: left;
+  display: block;
+}
+.checkLeft {
+  text-align: left;
+  display: block;
+}
+#submit {
+  display: block;
+  width: 100%;
+  height: 3em;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #00FF00;
+}
+.add-info {
+  width: 100%;
+  height: 10em;
+  resize: vertical;
+}
+.sponsor {
+  color: #FFF;
+  font-size: 15px;
+}
