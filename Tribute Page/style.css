@@ -1,0 +1,51 @@
+html {
+  text-align: center;
+  background-color: hsl(195deg, 100%, 95%);
+  font-family: monospace;
+}
+header {
+  border-color: #8700FF;
+  background-color: #B674FF;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 5px 5px 20px 5px;
+}
+#title {
+  font-size: 40px;
+}
+#sub {
+  font-size: 25px;
+}
+#img-div {
+  margin: auto;
+  border-style: solid;
+  border-color: #8700FF;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #F3E9FF;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto 20px auto;
+  height: auto;
+}
+#img-caption {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+ul {
+  margin: auto;
+  max-width: 650px;
+  text-align: left;
+  font-size: 20px;
+}
+li {
+  line-height: 25px;
+  margin: 16px;
+}
+#wiki {
+  margin: 25px auto auto auto;
+}
